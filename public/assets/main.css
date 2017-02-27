@@ -1,0 +1,310 @@
+* {
+
+		box-sizing:border-box;
+
+		-moz-box-sizing:border-box;
+
+		-webkit-box-sizing:border-box;
+
+	
+
+	}
+
+
+input::invalid {
+	border-style: groove;
+    border-color: red;
+}
+
+
+
+#formularz{
+ width: 500px;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 10px;
+ display: block;
+
+}
+
+#formularz fieldset{
+
+	width: 480px;
+	padding: 20px;
+	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#formularz label{
+
+	
+    width: 180px;	
+	padding: 5px;
+	display: inline-block;
+	margin-bottom: 8px;
+	
+}
+
+#formularz input{
+
+	
+
+width: 150px;
+margin-left: 70px;	
+margin-bottom: 8px;
+
+display: inline-block;
+}
+
+.g-recaptcha{
+margin-left: 70px;
+
+}
+
+
+#info{
+
+	float:right;
+}
+
+
+#submit{
+
+
+
+float: right;
+margin-right: 46px;
+
+color: white;
+
+text-decoration: none;
+
+font-size: 12px;
+
+text-align: center;
+
+
+
+
+}
+
+body{
+	background-color: #88BBFF; 
+}
+
+#logo{
+
+	font-size: 55px;
+	width: 400px;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px 0;
+
+
+}
+.celstrony{
+
+	margin-left: 220px;
+	text-align: justify;
+}
+
+#blad
+{	
+	
+	font-size: 12px;
+	
+}
+#header{
+
+		display:block;
+
+		width:100%;
+
+		background-color: #88BBFF; 
+		
+		padding: 5px;
+
+
+
+
+
+	}
+
+	#header nav {
+
+
+		background-color: #6699FF; 
+		width:1000px;
+
+		margin-left: auto;
+
+		margin-right: auto;
+
+		padding-bottom: 28px;
+		
+
+	}
+
+	#header nav ul {
+
+			list-style:none;
+			padding: 15px;
+
+
+
+		}
+
+	#header nav ul li {
+
+			float:left;
+
+			color: white;
+
+			text-align: center;
+			
+
+		}
+
+	#header nav ul li a:hover {
+
+			background: #5588EE;
+
+			color:white;
+
+
+		}
+
+	#header nav ul li a {
+
+			padding:5px 15px;
+
+			text-align:center;
+
+
+			text-decoration:none;
+
+			font-size: 20px;
+
+			display:block;
+
+			color: white;
+
+			width: 100%;
+
+
+
+		}
+
+div#content{
+
+		display:table;
+
+		width:1000px;
+
+		margin-left: auto;
+
+		margin-right: auto;
+		font-family: 'Open Sans';
+		text-align: justify;
+
+
+
+	
+	}
+
+
+
+.border {
+		border:1px solid silver;
+	}	
+
+	#content{
+
+			display:table-cell;
+
+			vertical-align:top;
+
+			padding:15px;
+
+			min-height: 500px;
+			
+			background-color: #ECFAFC;
+
+		}
+
+	aside{
+
+			display:table-cell;
+
+			vertical-align:top;
+
+			width:300px;
+
+			border-left:1px solid gray;
+
+			padding:15px;
+
+		}
+
+
+	form div.fields{
+			
+		float: right;
+
+				
+		}
+
+	form div.fields div.field{
+
+			float:left;
+
+			padding-right: 5px;
+
+			color: white;
+
+			
+
+		}
+
+	form div.fields div.field input[type="submit"]{
+
+			
+
+		}
+
+	form div.fields div.field label,
+
+	form div.fields div.field input{
+
+			
+
+			display:table-cell
+
+		}
+
+	form div.fields div.field a{
+
+	padding-left: 15px;	
+	padding-top: 3px;
+	}
+
+#footer{
+
+		background-color: #6699FF; 
+		
+		padding: 8px;
+
+		color: white;
+
+		width:1000px;
+
+		margin-left: auto;
+
+		margin-right: auto;
+
+}
+
+		
